@@ -10,22 +10,38 @@
 
 :root {
     --back-color: #ffffff;
-    --back-color-b: #e5e7eb;
     --dark-color: #1f2937;
     --light-color: #e5e7eb;
     --light-color-strong: #f9faf8;
     --accent-color: #3882f6;
+    --accent-color-highlighted: #40a0ff;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--dark-color);
     background-color: var(--back-color);
 }
 
 section {
     padding: 8vh 10vw;
+}
+
+button.sign-up-button {
+    color: var(--light-color-strong);
+    background-color: var(--accent-color);
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid var(--light-color-strong);
+    border-radius: 5px;
+    padding: 8px;
+    width: 8em;
+    cursor: pointer;
+}
+
+button.sign-up-button:hover {
+    background-color: var(--accent-color-highlighted);
 }
 
 /* Header Navigation */
@@ -63,6 +79,7 @@ nav a:hover {
 #welcome {
     color: var(--light-color);
     background-color: var(--dark-color);
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,13 +102,7 @@ nav a:hover {
 }
 
 #welcome button {
-    color: var(--light-color-strong);
-    background-color: var(--accent-color);
     border: none;
-    border-radius: 5px;
-    padding: 8px;
-    width: 10em;
-    cursor: pointer;
 }
 
 #welcome .image-wrapper {
@@ -140,7 +151,7 @@ nav a:hover {
 /* Testimonial Section */
 
 #testimonial {
-    background-color: var(--back-color-b);
+    background-color: var(--light-color);
 }
 
 .quote-wrapper {
@@ -161,6 +172,27 @@ nav a:hover {
 }
 
 /* Sign Up Section */
+
+.call-to-action {
+    color: var(--light-color);
+    background-color: var(--accent-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 5vw;
+    padding: 4vh 10px;
+    border-radius: 7px;
+}
+
+.call-to-action h2 {
+    color: var(--light-color-strong);
+    font-size: 24px;
+}
+
+.call-to-action button {
+    border: 1px solid var(--light-color-strong);
+}
 
 /* Footer */
 
