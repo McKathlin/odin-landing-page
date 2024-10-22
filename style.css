@@ -1,5 +1,41 @@
+/* Entire Page */
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header Navigation */
+
+/* Welcome Section */
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    max-height: 100vh;
+    padding: 10vw;
+}
+
+#welcome .blurb-wrapper {
+    flex: 1;
+}
+
+#welcome .image-wrapper {
+    flex: 1;
+}
+
+#welcome .image-wrapper > img {
+    width: 100%;
+    display: block;
+}
+
+/* Info Section */
+
+/* Testimonial Section */
+
+/* Sign Up Section */
+
+/* Footer */
