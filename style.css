@@ -19,12 +19,13 @@
 
 body {
     font-family: Roboto, sans-serif;
+    font-size: 18px;
     color: var(--dark-color);
     background-color: var(--back-color);
 }
 
 section {
-    padding: 7vw 10vw;
+    padding: 8vh 10vw;
 }
 
 /* Header Navigation */
