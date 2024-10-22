@@ -98,12 +98,44 @@ nav a:hover {
     flex: 1;
 }
 
-#welcome .image-wrapper > img {
+#welcome .image-wrapper img {
     width: 100%;
     display: block;
 }
 
 /* Info Section */
+
+#info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3vw;
+}
+
+.info-card {
+    font-size: 16px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+}
+
+.info-card img {
+    display: block;
+    width: 16vw;
+    height: 16vw;
+    object-fit: cover;
+    border-radius: 5px;
+}
 
 /* Testimonial Section */
 
