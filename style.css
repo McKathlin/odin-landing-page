@@ -69,11 +69,25 @@ nav a:hover {
 
 #welcome .blurb-wrapper {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 }
 
 #welcome h1 {
     font-size: 36px;
     font-weight: 900;
+}
+
+#welcome button {
+    color: var(--light-color-strong);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 10em;
+    cursor: pointer;
 }
 
 #welcome .image-wrapper {
