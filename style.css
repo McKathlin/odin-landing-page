@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900');
+
 /* Entire Page */
 
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --back-color: #ffffff;
+    --dark-color: #1f2937;
+    --light-color: #e5e7eb;
+    --light-color-strong: #f9faf8;
+    --light-color-weak: #e5e7eb;
+    --accent-color: #3882f6;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--dark-color);
+    background-color: var(--back-color);
 }
 
 /* Header Navigation */
@@ -21,6 +38,11 @@
 
 #welcome .blurb-wrapper {
     flex: 1;
+}
+
+#welcome h1 {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 #welcome .image-wrapper {
