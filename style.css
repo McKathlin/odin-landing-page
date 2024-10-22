@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;400;700;900');
 
 /* Entire Page */
 
@@ -141,6 +141,23 @@ nav a:hover {
 
 #testimonial {
     background-color: var(--back-color-b);
+}
+
+.quote-wrapper {
+    margin: 0 8vw;
+}
+
+.quote-wrapper .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-wrapper .speaker {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 5px;
 }
 
 /* Sign Up Section */
