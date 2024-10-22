@@ -10,10 +10,10 @@
 
 :root {
     --back-color: #ffffff;
+    --back-color-b: #e5e7eb;
     --dark-color: #1f2937;
     --light-color: #e5e7eb;
     --light-color-strong: #f9faf8;
-    --light-color-weak: #e5e7eb;
     --accent-color: #3882f6;
 }
 
@@ -60,6 +60,8 @@ nav a:hover {
 /* Welcome Section */
 
 #welcome {
+    color: var(--light-color);
+    background-color: var(--dark-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +78,7 @@ nav a:hover {
 }
 
 #welcome h1 {
+    color: var(--light-color-strong);
     font-size: 36px;
     font-weight: 900;
 }
@@ -103,6 +106,17 @@ nav a:hover {
 
 /* Testimonial Section */
 
+#testimonial {
+    background-color: var(--back-color-b);
+}
+
 /* Sign Up Section */
 
 /* Footer */
+
+footer {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+    text-align: center;
+    padding: 1.5em;
+}
