@@ -23,7 +23,39 @@ body {
     background-color: var(--back-color);
 }
 
+section {
+    padding: 7vw 10vw;
+}
+
 /* Header Navigation */
+
+header {
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10vw;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--light-color-strong);
+}
+
+nav {
+    display: flex;
+    gap: 1.5em;
+}
+
+nav a {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--light-color-strong);
+}
 
 /* Welcome Section */
 
@@ -33,7 +65,6 @@ body {
     align-items: center;
     gap: 2em;
     max-height: 100vh;
-    padding: 10vw;
 }
 
 #welcome .blurb-wrapper {
