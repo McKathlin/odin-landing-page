@@ -3,4 +3,4 @@ A sample landing page, completed as part of The Odin Project's Foundations cours
 
 This landing page advertises **CloudBox**, a fictional service that stores literal clouds.
 
-View it live [here on its GitHub page](https://mckathlin.github.io/odin-landing-page/).
+View it live here: [Odin Landing Page by McKathlin](https://mckathlin.github.io/odin-landing-page/)
